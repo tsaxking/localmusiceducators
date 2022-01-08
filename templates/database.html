@@ -1,0 +1,49 @@
+<div class="subpage">
+    <h1 class="center">View All Teachers</h1>
+    <table>
+        <tbody>
+            <tr>
+                <th>
+                    <h5>Instrument</h5>
+                </th>
+                <th>
+                    <h5>Name</h5>
+                </th>
+                <th>
+                    <h5>Rates</h5>
+                </th>
+                <th>
+                    <h5>Education</h5>
+                </th>
+                <th>
+                    <h5>Years of Experience</h5>
+                </th>
+                <th>
+                    <h5>Website</h5>
+                </th>
+            </tr>
+            <repeat id="teacherRepeat">
+                <tr data-teacher="@ID@">
+                    <td>
+                        <p>@INSTRUMENT</p>
+                    </td>
+                    <td>
+                        <p>@NAME@</p>
+                    </td>
+                    <td>
+                        <p>@RATES@</p>
+                    </td>
+                    <td>
+                        <p>@EDUCATION@</p>
+                    </td>
+                    <td>
+                        <p>@EXPERIENCE@</p>
+                    </td>
+                    <td>
+                        <p>@WEBSITE@</p>
+                    </td>
+                </tr>
+            </repeat>
+        </tbody>
+    </table>
+</div>
